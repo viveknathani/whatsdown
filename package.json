@@ -1,0 +1,28 @@
+{
+  "name": "whatsdown",
+  "version": "0.1.0",
+  "description": "A Typescript library for interacting with the WhatsApp web multidevice API.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-web",
+    "whatsapp-api",
+    "whatsapp"
+  ],
+  "author": "viveknathani",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}
