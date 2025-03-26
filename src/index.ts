@@ -1,4 +1,7 @@
 import { WebSocket } from 'ws';
+import { randomBytes } from 'crypto';
+
+const clientId = randomBytes(16).toString('base64');
 
 const ws = new WebSocket('wss://web.whatsapp.com/ws/chat', {
     origin: 'https://web.whatsapp.com'
